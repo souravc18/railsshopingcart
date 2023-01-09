@@ -1,0 +1,18 @@
+<div class="jumbotron">
+  <div class="d-flex flex-row align-items-center">
+    <div>
+      <img
+        src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-shopping-carts/img1.webp"
+        class="img-fluid rounded-3" alt="Shopping item" style="width: 250px;">
+    </div>
+  </div>
+  <h1 class="display-4"><%= @product.title %></h1>
+
+  <p class="lead">
+    <strong>Price:</strong>
+    <%= @product.price %>
+  </p>
+  <hr class="my-4"></hr>
+
+  <%= link_to link_to 'Back', root_path, class:"btn btn-secondary btn-sm" %>
+</div>
